@@ -1,0 +1,8 @@
+{
+  "name": "coinbasegrok",
+  "displayName": "CoinbaseGrok Trading Desk",
+  "description": "Seven-agent Coinbase Advanced Trade desk for Grok Bot: research, risk, ticketed execution.",
+  "version": "0.1.0",
+  "skills": ["skills"],
+  "agents": ["agents"]
+}

@@ -21,14 +21,15 @@ export default function HomePage() {
             Filed 8 Sep 2026 · community scan since Grok Bot launch 11 Aug
           </p>
           <h1 className="font-heading max-w-3xl text-4xl leading-[1.05] text-balance sm:text-6xl">
-            Three Grok Bot desks you can actually acquire.
+            CoinbaseGrok is on the floor.
           </h1>
           <p className="max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Deep internet, not a prompt dump. I opened the live share pages,
-            the MIT repos, and the public prompt boards. One team is a real
-            Hyperliquid floor. One is the floor OS the Hub people use. One is
-            the only HFT-shaped pair with a public install script. True
-            microsecond HFT is not on this list — because it is not for sale.
+            HyperGrok cannot be pointed at Coinbase Advanced. We adapted the
+            seven-seat model anyway: same tickets, one writer, your approval
+            by id. The venue layer is CDP keys, official preview, and
+            <span className="text-foreground"> coinbase-desk/</span> in this
+            repo. The three community desks we hunted stay on the shortlist
+            below.
           </p>
         </div>
         <aside className="rounded-lg border border-primary/25 bg-card/70 p-5">
@@ -39,7 +40,7 @@ export default function HomePage() {
             <li>2 one-click x.ai templates — preview pages live today.</li>
             <li>1 paste-in dual prompt — full text on botdirectory.</li>
             <li>0 paid SKUs. 0 “buy this desk” marketplaces that ship code.</li>
-            <li>HyperGrok is MIT. You can fork the whole pack.</li>
+            <li>CoinbaseGrok v0.1 ships in this repo as coinbase-desk/.</li>
           </ul>
         </aside>
       </section>
@@ -51,7 +52,7 @@ export default function HomePage() {
             Ranked for crypto deployability, not Twitter PnL
           </p>
         </div>
-        <div className="grid gap-5 lg:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2">
           {desks.map((desk) => (
             <DeskCard key={desk.slug} desk={desk} />
           ))}

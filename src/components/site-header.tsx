@@ -13,6 +13,9 @@ export function SiteHeader() {
           </span>
         </Link>
         <nav className="flex items-center gap-4 font-mono text-[11px] tracking-wider uppercase text-muted-foreground">
+          <Link href="/desks/coinbasegrok" className="hover:text-primary">
+            CoinbaseGrok
+          </Link>
           <Link href="/#shortlist" className="hover:text-primary">
             Shortlist
           </Link>

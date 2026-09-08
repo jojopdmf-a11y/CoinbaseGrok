@@ -8,7 +8,7 @@ export type Seat = {
 
 export type Desk = {
   slug: string;
-  rank: 1 | 2 | 3;
+  rank: 1 | 2 | 3 | 4;
   callsign: string;
   name: string;
   creator: string;
@@ -35,8 +35,67 @@ export type Desk = {
 
 export const desks: Desk[] = [
   {
-    slug: "hypergrok",
+    slug: "coinbasegrok",
     rank: 1,
+    callsign: "OURS",
+    name: "CoinbaseGrok Trading Desk",
+    creator: "This repo — HyperGrok model, Coinbase Advanced venue",
+    verdict:
+      "The adapter we are building. Same seven seats and ticket gate as HyperGrok. The writer talks to Coinbase Advanced Trade, not Hyperliquid.",
+    summary:
+      "Paste coinbase-desk/ into Grok Bot and follow SETUP.md. Research mode rings Opening Bell on public BTC-USD. Sandbox rehearses mocked orders. Preview uses a live CDP key without resting on the book. Live is an isolated portfolio, View+Trade, Transfer off, one send per approve CB-…",
+    whyCracked: [
+      "HyperGrok cannot be configured for Coinbase. This pack replaces the venue layer instead of lying about a switch.",
+      "Four engagement levels: research, static sandbox, official order preview, then live.",
+      "Opening Bell and desk doctor are zero-key and were checked against live public Coinbase market data.",
+      "create_order.py refuses unless desk.md says live and you pass --i-understand-this-is-live.",
+      "Tickets are CB-YYYYMMDD-NN. Auto-review on POST /orders is the gate.",
+    ],
+    limits: [
+      "v0.1 — first slice. No public x.ai share link yet. You paste SETUP.md into Grok Bot.",
+      "Coinbase remote MCP is not the supported Grok Bot path (allowlist is ChatGPT/Claude today).",
+      "Sandbox fills are mocks. Preview is the real rehearsal on live books.",
+      "Spot-first. US futures / intx stay off unless you edit risk-limits.md.",
+    ],
+    seats: [
+      { name: "Desk Lead", job: "Routes the Coinbase floor", writesExchange: false },
+      { name: "Market Analyst", job: "Public product, book, candles", writesExchange: false },
+      { name: "Research Analyst", job: "News, catalysts, counter-evidence", writesExchange: false },
+      { name: "Strategist", job: "Rules, candles, preview paper", writesExchange: false },
+      { name: "Risk Manager", job: "Isolated portfolio sizing and veto", writesExchange: false },
+      { name: "Execution Trader", job: "Only writer. Preview, one create, reconcile", writesExchange: true },
+      { name: "Trade Reviewer", job: "Journal, off-floor", writesExchange: false },
+    ],
+    venue: "Coinbase Advanced Trade (spot first)",
+    crypto: "native",
+    hftFit:
+      "Same honesty as HyperGrok: session desk, not colocated HFT. Coinbase preview + IOC market orders are the fast primitives.",
+    acquireMethod: "repo",
+    acquireLabel: "Open the Grok Bot runbook",
+    license: "MIT (HyperGrok operating model attributed)",
+    cost: "Free pack. Needs Grok Bot plus a CDP key for preview/live.",
+    deployMinutes: "About 15 minutes to a research-mode floor",
+    sources: [
+      { label: "Pack in this repo", href: "/desks/coinbasegrok" },
+      { label: "SETUP.md", href: "https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/overview" },
+      { label: "Coinbase Advanced Trade docs", href: "https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/overview" },
+      { label: "HyperGrok (model source)", href: "https://github.com/galleonlabs/hypergrok-trading-desk" },
+    ],
+    runbook: [
+      "Copy coinbase-desk/ onto the Grok Bot computer as /workspace/coinbase-desk.",
+      "Tell any Bot to follow /workspace/coinbase-desk/SETUP.md from top to bottom.",
+      "Watch Opening Bell on BTC-USD. Confirm it says read-only and not a signal.",
+      "Set Auto-review Require Approval for financial actions and POST /api/v3/brokerage/orders.",
+      "Stay in research. Then sandbox (mocked JSON). Then a View+Trade CDP key scoped to an isolated portfolio, Transfer off, preview only.",
+      "Write risk-limits.md with the Risk Manager before any live create.",
+      "Live: type approve CB-… after a current preview. One client_order_id. No blind retry.",
+    ],
+    firstMessage:
+      "Set up the CoinbaseGrok trading desk from /workspace/coinbase-desk/SETUP.md. Follow that file from top to bottom, create the seven Bots and the Trading Floor group chat, install the skills, and finish with the receipt it asks for. Stay read-only: no CDP key, no order.",
+  },
+  {
+    slug: "hypergrok",
+    rank: 2,
     callsign: "ALPHA",
     name: "HyperGrok Trading Desk",
     creator: "Andrew Wilkinson / Galleon Labs",
@@ -101,7 +160,7 @@ export const desks: Desk[] = [
   },
   {
     slug: "floor-chief",
-    rank: 2,
+    rank: 3,
     callsign: "FLOOR",
     name: "Trading Floor Chief",
     creator: "Игорь / Grok Hub",
@@ -155,7 +214,7 @@ export const desks: Desk[] = [
   },
   {
     slug: "roundtable",
-    rank: 3,
+    rank: 4,
     callsign: "TAPE",
     name: "Roundtable Dual Desk",
     creator: "RoundtableSpace",
