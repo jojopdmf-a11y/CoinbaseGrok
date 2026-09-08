@@ -310,3 +310,6 @@ export const huntNotes = {
 export function getDesk(slug: string) {
   return desks.find((d) => d.slug === slug);
 }
+
+export const builtDesk = desks.find((desk) => desk.slug === "coinbasegrok");
+export const communityDesks = desks.filter((desk) => desk.slug !== "coinbasegrok");

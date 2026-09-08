@@ -10,7 +10,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { desks, huntNotes, runnersUp } from "@/lib/desks";
+import { builtDesk, communityDesks, desks, huntNotes, runnersUp } from "@/lib/desks";
 
 export default function HomePage() {
   return (
@@ -45,15 +45,29 @@ export default function HomePage() {
         </aside>
       </section>
 
+      {builtDesk ? (
+        <section id="ours" className="scroll-mt-24 space-y-4">
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <h2 className="font-heading text-3xl">What we are building</h2>
+            <p className="font-mono text-xs text-muted-foreground">
+              In this repo · Coinbase Advanced
+            </p>
+          </div>
+          <div className="max-w-xl">
+            <DeskCard desk={builtDesk} />
+          </div>
+        </section>
+      ) : null}
+
       <section id="shortlist" className="scroll-mt-24 space-y-6">
         <div className="flex flex-wrap items-end justify-between gap-3">
-          <h2 className="font-heading text-3xl">The shortlist</h2>
+          <h2 className="font-heading text-3xl">Community shortlist</h2>
           <p className="font-mono text-xs text-muted-foreground">
-            Ranked for crypto deployability, not Twitter PnL
+            Three desks you can acquire today
           </p>
         </div>
-        <div className="grid gap-5 md:grid-cols-2">
-          {desks.map((desk) => (
+        <div className="grid gap-5 lg:grid-cols-3">
+          {communityDesks.map((desk) => (
             <DeskCard key={desk.slug} desk={desk} />
           ))}
         </div>
@@ -133,13 +147,28 @@ export default function HomePage() {
 
       <section className="space-y-4">
         <h2 className="font-heading text-3xl">How to take one home tonight</h2>
-        <ol className="grid gap-4 md:grid-cols-3">
+        <ol className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <li className="rounded-lg border border-border bg-card/70 p-5">
             <p className="font-mono text-[11px] text-primary">01</p>
-            <h3 className="mt-2 font-heading text-xl">Add HyperGrok</h3>
+            <h3 className="mt-2 font-heading text-xl">Stand up CoinbaseGrok</h3>
             <p className="mt-2 text-sm text-muted-foreground">
-              One-click Desk Lead. Research mode first. Testnet before
-              mainnet. This is the crypto book.
+              Paste coinbase-desk/ into Grok Bot. Research mode first.
+              This is the Coinbase Advanced book.
+            </p>
+            <ButtonLink
+              href="/desks/coinbasegrok"
+              className="mt-4"
+              size="sm"
+            >
+              Open runbook
+            </ButtonLink>
+          </li>
+          <li className="rounded-lg border border-border bg-card/70 p-5">
+            <p className="font-mono text-[11px] text-primary">02</p>
+            <h3 className="mt-2 font-heading text-xl">Or add HyperGrok</h3>
+            <p className="mt-2 text-sm text-muted-foreground">
+              One-click Desk Lead if you want Hyperliquid instead.
+              Testnet before mainnet.
             </p>
             <ButtonLink
               href="https://x.ai/bot/PReCwAHq8Vgeex50r883H"
@@ -151,7 +180,7 @@ export default function HomePage() {
             </ButtonLink>
           </li>
           <li className="rounded-lg border border-border bg-card/70 p-5">
-            <p className="font-mono text-[11px] text-primary">02</p>
+            <p className="font-mono text-[11px] text-primary">03</p>
             <h3 className="mt-2 font-heading text-xl">Optional: Floor Chief</h3>
             <p className="mt-2 text-sm text-muted-foreground">
               If you want a front door that never holds keys, add the Hub
@@ -168,7 +197,7 @@ export default function HomePage() {
             </ButtonLink>
           </li>
           <li className="rounded-lg border border-border bg-card/70 p-5">
-            <p className="font-mono text-[11px] text-primary">03</p>
+            <p className="font-mono text-[11px] text-primary">04</p>
             <h3 className="mt-2 font-heading text-xl">Or run systematic</h3>
             <p className="mt-2 text-sm text-muted-foreground">
               Paste the Roundtable pair if you want a ranked tape and a
