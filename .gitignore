@@ -42,3 +42,5 @@ next-env.d.ts
 
 # local research cache
 /agent-tools
+**/__pycache__/
+*.pyc
