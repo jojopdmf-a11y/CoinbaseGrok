@@ -22,8 +22,21 @@ Same rule for every row in `allowlists/coins.md`: **one instrument family per co
 
 - Two Schwab names that are the same coin (IBIT + FBTC).
 - Sleeve B plus sleeve A in the same coin (“stealth 3×”).
-- Raising notional above ~$4,000 because “we have margin” while keeping a 2.5% stop (that raises dollar risk above $100).
-- A third coin while two coins are already open (firm-wide max **two coins**).
+- Raising notional above ~$4,000 on a **full-size** name while keeping a 2.5% stop (that raises dollar risk above $100).
+- A third **full-size** Schwab ticket (~$4,000 / $100 risk). That is 3% risk and no cash.
+
+## Position count (not “two coins firm-wide”)
+
+Law is **risk and notional**, not a hard two-ticker firm.
+
+- Max **two full-size Schwab names** ($100 risk each, ~$4,000 notional).
+- Coinbase C does **not** count as a Schwab name. IBIT + ETHA plus a Coinbase SOL 3R ($15 risk) is allowed.
+- A third **Schwab** coin is allowed only if you **cut size** so:
+  - total open Schwab risk (sum of dollar stops) ≤ **$200** (2% of $10,000)
+  - total Schwab notional (A + B, open + pending) ≤ **$12,000**
+- Examples: two $4k names (risk $200, notional $8k) and stop. Or two $4k + one ~$2k satellite (risk $250) — **reject**. Or one $4k + two ~$2k (risk $200, notional $8k) — **ok** if coins differ and none are stacked.
+
+Pending rows count toward both caps.
 
 ## Skip
 

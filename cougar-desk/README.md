@@ -1,6 +1,6 @@
 # Cougar dual-venue desk
 
-Coin-level research. Two Schwab ways to play the same idea. One Coinbase sleeve. **One coin in one place.**
+Coin-level research. Two Schwab ways to play the same idea. One Coinbase sleeve. **One coin in one place.** Max two full-size Schwab names; total Schwab risk ≤ $200 and notional ≤ $12,000. Coinbase does not use a Schwab slot.
 
 ```
 Research / Market brief a COIN (BTC, ETH, SOL, …)

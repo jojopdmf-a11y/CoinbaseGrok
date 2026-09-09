@@ -35,9 +35,10 @@ Same window as the Roh loop: once on the weekday morning, once if a catalyst pri
 After the brief and `book.md`:
 
 1. If coin is in the book → skip.
-2. If two coins already open → skip.
-3. If NYSE/Nasdaq regular session and brief says same-day only → sleeve B if a 2× ticker exists.
-4. Else if swing / overnight → sleeve A if a 1× ticker exists.
-5. Else if Coinbase engagement is paper/preview/live and pair is on the fee-map allowlist → sleeve C.
+2. If adding a **full-size** Schwab name would make a third $100-risk Schwab row → skip (unless Jeffrey sized it down so total Schwab risk ≤ $200 and notional ≤ $12,000).
+3. Coinbase C may be a third coin at $15 risk. It does not use a Schwab slot.
+4. If NYSE/Nasdaq regular session and brief says same-day only → sleeve B if a 2× ticker exists.
+5. Else if swing / overnight → sleeve A if a 1× ticker exists.
+6. Else if Coinbase engagement is paper/preview/live and pair is on the fee-map allowlist → sleeve C.
 
 Write the chosen instrument on the ticket, not in the brief.

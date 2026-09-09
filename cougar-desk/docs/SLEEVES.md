@@ -12,7 +12,7 @@ Risk language is the same everywhere: **$100 risk (Schwab)** or **$15 risk (Coin
 - Notional per name: **$100 ÷ 0.025 ≈ $4,000**. Do not widen the ticket because margin exists.
 - **Borrow cap:** total Schwab notional (A + B) ≤ **$12,000** (1.2× the $10k). That is “a bit” of IBIT margin, not 2× the account.
 - House margin can jump; if Schwab would force leverage above 1.2× or issue a call, flatten to cash. Do not average down.
-- Max **two** Schwab names, and only if they are **different coins**.
+- Max **two full-size** Schwab names ($100 risk each). A third Schwab coin only if total open Schwab risk stays ≤ $200 and notional ≤ $12,000. Different coins only. See `OVERLAP.md`.
 
 ## Sleeve B — Schwab 2× day
 

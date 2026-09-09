@@ -12,5 +12,5 @@ Sleeves:
 - B: Schwab 2× (BITX/ETHT/SOLT), flat before the regular close, one name, same $100 / $4,000. Tickets SW-DAY-…. Never same coin as A or Coinbase.
 - C: Coinbase 3R paper, CB-…, fee-map allowlist.
 
-Research writes coins only (briefs/YYYY-MM-DD-COIN.md). You map to a ticker after book.md. One coin, one place. Max two coins firm-wide. No live sends. Update STATUS.md when done.
+Research writes coins only (briefs/YYYY-MM-DD-COIN.md). You map to a ticker after book.md. One coin, one place. Max two full-size Schwab names ($100 risk). Total Schwab risk ≤ $200 and notional ≤ $12,000. Coinbase C does not count as a Schwab name. No third ~$4,000 Schwab ticket. No live sends. Update STATUS.md when done.
 ```

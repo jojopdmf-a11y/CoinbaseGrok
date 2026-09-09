@@ -18,4 +18,4 @@ Pending counts as **taken**. Two pending BTC tickets are a defect.
 
 Desk Lead is the only editor. Execution reports fills; Lead writes the row.
 
-Schwab notional sum of `open` + `pending` A/B rows must be ≤ **12000**. Coinbase notionals do not count toward that cap but **do** occupy the coin.
+Schwab `open` + `pending` A/B rows: notional sum ≤ **12000**, dollar-risk sum ≤ **200**, at most **two** rows with ~100 risk. Coinbase notionals do not count toward those caps but **do** occupy the coin (one coin, one place).

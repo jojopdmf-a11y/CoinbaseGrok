@@ -12,7 +12,7 @@ mkdir -p /workspace/cougar-trading-desk/{briefs,research,journal,proposals}
 
 Copy templates:
 
-- `/workspace/cougar-desk/templates/book.md` → `/workspace/cougar-trading-desk/book.md`
+- `/workspace/cougar-desk/templates/book.md` → `/workspace/cougar-trading-desk/book.md` (if `book.md` already exists, update the **Caps** header only — do not wipe open rows)
 - Keep `/workspace/cb-trading-desk` for Coinbase tickets and STATUS. Do not merge the two trees.
 
 Read:
@@ -34,7 +34,7 @@ Desk Lead maps coin → instrument **after** reading `book.md`.
 
 ## 3. Tell the floor (Trading Floor message)
 
-> Cougar is one research book and three sleeves. Research names the coin. I route. Book.md is law: one coin, one venue, one sleeve. Schwab A = 1× ETF, overnight OK, total Schwab notional cap $12,000, $100 risk per name. Schwab B = 2× ETF, flat before the regular-session close, one 2× name, never the same coin as A or Coinbase. Coinbase C = 3R paper on the fee-map allowlist, tickets CB-…. Schwab tickets SW-… (overnight) and SW-DAY-… (2×). Jeffrey approves. Do not stack IBIT and BITX. Do not stack Coinbase BTC and IBIT.
+> Cougar is one research book and three sleeves. Research names the coin. I route. Book.md is law: one coin, one venue, one sleeve. Schwab A = 1× ETF, overnight OK, total Schwab notional cap $12,000, $100 risk per full-size name. Max two full-size Schwab names. Total open Schwab risk ≤ $200. A third Schwab coin only if size is cut to fit those caps. Coinbase C does not use a Schwab slot. Schwab B = 2× ETF, flat before the regular-session close, one 2× name, never the same coin as A or Coinbase. Coinbase C = 3R paper on the fee-map allowlist, tickets CB-…. Schwab tickets SW-… (overnight) and SW-DAY-… (2×). Jeffrey approves. Do not stack IBIT and BITX. Do not stack Coinbase BTC and IBIT. Do not open a third ~$4,000 Schwab ticket.
 
 ## 4. STATUS
 
