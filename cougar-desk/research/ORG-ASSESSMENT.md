@@ -24,6 +24,8 @@ For a **paper / prove-it** phase you do **not** need 8 active workers every day.
 
 Do **not** invent new bots for Schwab yet. Prefer one Strategist backtest skill + Desk Lead routing over a “Schwab Execution” seat.
 
+**Do not hire a Sentiment Finder.** Research logs an optional `sent_score` on the metrics board. Market owns the daily board (`skills/metrics-board`). Active learning = walk `STRATEGY-QUEUE.md`, not a new seat watching the tape.
+
 ## Efficiency risks
 - Fan-out to all 7 specialists for every idea = noise while Jeffrey wants reports not approvals
 - Execution Trader waking on paper marks wastes compute

@@ -10,7 +10,13 @@ Paper / prove-it only. No live orders. No secrets.
 - `A1-RECONCILE.md` — Desk Lead ruleset1 ≠ COO A1; desk truth = COO harden
 - `sleeve-a/` — rules, scripts, results
 
-## Coinbase sleeve C (background)
+## Factory (current)
+- `STRATEGY-QUEUE.md` — Schwab-only hunt; A3–A7 then B1; no CPI pause
+- `../templates/strategy-card.md` — one page per queued ID
+- `../templates/metrics-board.md` — weekday ETF numbers
+- `../skills/metrics-board/SKILL.md` — Market owns the board; no Sentiment Finder Bot
+
+## Coinbase sleeve C (frozen)
 - `fee-map.md` — Intro 1; post-only ~1.2% RT; no product discount
 - `v3R-60.md` — 3R Coinbase FAIL @1.2%
 

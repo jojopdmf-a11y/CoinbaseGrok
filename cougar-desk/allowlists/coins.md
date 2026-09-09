@@ -4,14 +4,14 @@ Desk Lead picks **one** instrument after `book.md`. Prefer the left-most ticker 
 
 | Coin | Sleeve C (Coinbase) | Sleeve A (1× Schwab) | Sleeve B (2× Schwab) |
 | --- | --- | --- | --- |
-| BTC | BTC-USD or BTC-USDC (fee-map) | IBIT | BITX |
-| ETH | ETH-USD or ETH-USDC | ETHA | ETHT |
-| SOL | SOL-USD | BSOL | SOLT |
-| XRP | only if fee-map keeps it | XRPC or XRP (tighter book) | — |
-| HYPE | only if fee-map keeps it | BHYP (else THYP / HYPG) | — |
-| LINK | only if fee-map keeps it | GLNK or CLNK | — |
-| DOGE | only if fee-map keeps it | GDOG | — |
-| AVAX | only if fee-map keeps it | VAVX | — |
-| SUI | only if fee-map keeps it | GSUI or SUIS | — |
+| BTC | **frozen** | IBIT | BITX |
+| ETH | **frozen** | ETHA | ETHT |
+| SOL | **frozen** | BSOL | SOLT |
+| HYPE | **frozen** | BHYP (else THYP / HYPG) | — |
+| XRP | frozen | only if Jeffrey adds back | — |
+| LINK | frozen | only if Jeffrey adds back | — |
+| DOGE | frozen | only if Jeffrey adds back | — |
+| AVAX | frozen | only if Jeffrey adds back | — |
+| SUI | frozen | only if Jeffrey adds back | — |
 
 Do not add FBTC/GBTC next to IBIT. Do not add 2× names other than BITX, ETHT, SOLT without Jeffrey.

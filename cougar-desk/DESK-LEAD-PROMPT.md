@@ -1,16 +1,19 @@
 # Paste to Desk Lead
 
 ```text
-Install Cougar dual-venue rules from /workspace/cougar-desk/INSTALL.md.
-Follow that file top to bottom. Create /workspace/cougar-trading-desk and book.md from the template.
+git pull so /workspace/cougar-desk matches GitHub main.
 
-Parallel work already in flight (do not cancel): v3R-60 Coinbase replay, fee-map.md.
-This install adds routing only.
+Jeffrey 2026-09-09:
+- Full pause on Coinbase ideas. No PAPER-CB. No new Coinbase replays. Sleeve C frozen.
+- Lift the CPI pause. Do not idle Strategist.
+- Schwab-only hunt for BTC, ETH, SOL, HYPE via ETFs (IBIT/ETHA/BSOL/BHYP, 2× later).
+- Follow cougar-desk/research/STRATEGY-QUEUE.md in order (A3 then A4…).
+- Market: daily metrics board per skills/metrics-board/SKILL.md
+- Research: weekday coin briefs + optional sent_score on that board (not a new Bot)
+- Strategist: one queued ruleset per weekday — written card, backtest, walk-forward. Full-sample green + harden red = FAIL.
+- You route PAPER-SW only. No approve pings. Update STATUS.md.
 
-Sleeves:
-- A: Schwab 1× (IBIT/ETHA/BSOL/…), overnight OK, ~$4,000 per name, $100 risk, 2.5%/7.5%, total Schwab notional ≤ $12,000. Tickets SW-….
-- B: Schwab 2× (BITX/ETHT/SOLT), flat before the regular close, one name, same $100 / $4,000. Tickets SW-DAY-…. Never same coin as A or Coinbase.
-- C: Coinbase 3R paper, CB-…, fee-map allowlist.
-
-Research writes coins only (briefs/YYYY-MM-DD-COIN.md). You map to a ticker after book.md. One coin, one place. Max two full-size Schwab names ($100 risk). Total Schwab risk ≤ $200 and notional ≤ $12,000. Coinbase C does not count as a Schwab name. No third ~$4,000 Schwab ticket. No live sends. Update STATUS.md when done.
+Do not hire a Sentiment Finder. Do not reopen v3R or VWAP.
 ```
+
+After pull: Market writes `briefs/metrics-YYYY-MM-DD.md`. Strategist opens A3 (not A1). You do not ask Jeffrey to approve paper tickets.

@@ -1,10 +1,10 @@
 # Dual-venue paper game plan
 
-Updated: **2026-09-09T18:45:58Z**  
-Mode: **research / paper only**. Jeffrey is **not** approving. No Schwab send. No Coinbase `POST /orders`.
+Updated: **2026-09-09** (Jeffrey: Schwab-only hunt; Coinbase ideas frozen; **do not pause for CPI**)  
+Mode: **research / paper only**. No Schwab send. No Coinbase `POST /orders`.
 
 ## Goal
-Prove (or falsify) whether sleeves **A/B** under OVERLAP/SLEEVES can show fee-honest positive expectancy, and keep **C** as a small paper lab only.
+Find fee-honest edge on **BTC, ETH, SOL, HYPE** via Schwab ETFs (sleeves A then B). Factory: `STRATEGY-QUEUE.md`.
 
 ## What already failed (do not reopen)
 - Coinbase Intro 1 VWAP-fade family (v6–v23): FEE_WALL @ 1.2% RT
@@ -17,28 +17,27 @@ Prove (or falsify) whether sleeves **A/B** under OVERLAP/SLEEVES can show fee-ho
 - One coin → one venue → one sleeve
 - Schwab full-size: $100 risk, 2.5% stop, 7.5% T1 (~$4k notional)
 - Max 2 full-size Schwab; total Schwab risk ≤ $200; notional ≤ $12k
-- Coinbase C: $15 risk / ~$500–600; paper only
+- Coinbase C: **frozen** — no new ideas, no new replays, no PAPER-CB queue
 
 ## Experiment queue (paper)
 
 ### Wave 1 — Sleeve A 3R (primary)
-Backtest IBIT / ETHA / BSOL (or Yahoo proxies) with:
-- Entry: simple, explicit rule set #1 (daily bias + pullback) then #2 (breakout)
-- Stop 2.5% / target 7.5% / time stop 10 trading days
-- Fees: assume Schwab ~$0 commission + modest spread (document assumption; stress 5–10 bps RT)
-- Success: fee-adj E > 0, n ≥ 30 (or n ≥ 20 if ETF history short), report WR, avg win/loss, max DD, # trades/year
+Backtest **IBIT / ETHA / BSOL / BHYP** (Yahoo proxies OK if Schwab history is short) using **A3 onward** in `STRATEGY-QUEUE.md`. A1 and the SMA/breakout cards are burned.
+- Stop 2.5% / target 7.5% / time stop 10 trading days unless the card says otherwise
+- Fees: Schwab ~$0 commission + documented spread; stress **5 and 10 bps** RT (HYPE also **15–25 bps**)
+- Success: fee-adj E > 0 at 10 bps, n ≥ 30 (n ≥ 20 if the ETF is young), **and** walk-forward first window E > 0
 
 ### Wave 2 — Sleeve B 2× day
 BITX / ETHT / SOLT: same 2.5%/7.5% on the **2× ticker**, flatten same session; only if Wave 1 shows a coin with edge.
 
-### Wave 3 — Sleeve C (Coinbase) maintenance only
-No new VWAP variants. Optional: maker-only constraint study later. Not the main hunt.
+### Wave 3 — Sleeve C (Coinbase)
+**Stopped.** Do not reopen. v3R-60 and fee-map stay as autopsy files only.
 
 ## Idea → test → report loop
 1. Research/Market write **coin** brief (no venue in thesis)
 2. Strategist writes explicit rules + backtest
 3. Risk sizes from SLEEVES caps (paper)
-4. Desk Lead routes to A/B/C on paper ticket id `PAPER-SW-…` / `PAPER-CB-…` — never asks Jeffrey to approve
+4. Desk Lead routes to A/B on paper ticket id `PAPER-SW-…` — never asks Jeffrey to approve. No PAPER-CB.
 5. Trade Reviewer grades process vs outcome on paper closes
 6. COO/Desk Lead weekly digest: what worked, what falsified, org notes
 
@@ -51,7 +50,7 @@ No new VWAP variants. Optional: maker-only constraint study later. Not the main 
 - Desk Lead ruleset #1 SMA variant: separate; desk truth = COO A1 harden
 - Ruleset #2 breakout: **no n-gate clears** (IBIT 25 / ETHA 18 / BSOL 7)
 - Flat coin briefs → no PAPER-SW
-- Next: iterate or pause for catalyst week — no promote
+- Next: **A3 onward** in `STRATEGY-QUEUE.md`. CPI is a brief line, not a halt.
 
-### Pause (2026-09-09T18:53:59Z)
-Desk Lead + COO: **no new Sleeve A rulesets** until post-CPI week; then refresh coin briefs from live tape. Strategist idle on new rules.
+### CPI pause — lifted
+Jeffrey 2026-09-09: waiting on CPI is the wrong direction. Strategist stays on the queue every weekday.

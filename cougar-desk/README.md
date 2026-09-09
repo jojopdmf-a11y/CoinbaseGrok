@@ -1,9 +1,11 @@
-# Cougar dual-venue desk
+# Cougar Schwab desk
 
-Coin-level research. Two Schwab ways to play the same idea. One Coinbase sleeve. **One coin in one place.** Max two full-size Schwab names; total Schwab risk ≤ $200 and notional ≤ $12,000. Coinbase does not use a Schwab slot.
+Coin-level research. Two Schwab ways to play the same idea. **Coinbase sleeve C is frozen.** One coin in one place. Max two full-size Schwab names; total Schwab risk ≤ $200 and notional ≤ $12,000.
+
+Factory: `research/STRATEGY-QUEUE.md`. Daily numbers: `skills/metrics-board/SKILL.md`. Do not hire a Sentiment Finder.
 
 ```
-Research / Market brief a COIN (BTC, ETH, SOL, …)
+Research / Market brief a COIN (BTC, ETH, SOL, HYPE)
         ↓
 Desk Lead reads /workspace/cougar-trading-desk/book.md
         ↓
@@ -15,7 +17,7 @@ Desk Lead reads /workspace/cougar-trading-desk/book.md
         │
         overnight / swing ──────────────────► Sleeve A (1× ETF, SW-…)
         │
-        Coinbase 3R paper/live (fee-map) ──► Sleeve C (CB-…)
+        Coinbase ────────────────────────────────► frozen (no CB- / PAPER-CB)
 ```
 
 Working files live at `/workspace/cougar-trading-desk` (private). This folder is the public instructions. Never commit keys, OAuth tokens, or `book.md` with live sizes to the public repo.

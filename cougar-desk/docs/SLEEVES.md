@@ -1,12 +1,12 @@
 # Sleeves
 
-Equity assumed **$10,000** on Schwab (dedicated account). Coinbase sleeve stays the **$1,000 / 3R** paper book unless Jeffrey changes `desk.md`.
+Equity assumed **$10,000** on Schwab (dedicated account). Hunt is **Schwab-only**. Coinbase sleeve C is frozen.
 
-Risk language is the same everywhere: **$100 risk (Schwab)** or **$15 risk (Coinbase $1k)**, stop **2.5%** of *that instrument*, target **7.5%** (3R).
+Risk language on Schwab: **$100 risk**, stop **2.5%** of *that instrument*, target **7.5%** (3R).
 
 ## Sleeve A — Schwab 1× overnight
 
-- Instruments: **IBIT** (BTC), **ETHA** (ETH), **BSOL** (SOL), plus fee/spread-checked XRP primary from the allowlist.
+- Instruments: **IBIT** (BTC), **ETHA** (ETH), **BSOL** (SOL), **BHYP** (HYPE; else THYP / HYPG). Other allowlist names only if Jeffrey adds them back.
 - Hold through the close and overnight is allowed.
 - Limit orders. Ticket: `SW-YYYYMMDD-NN`.
 - Notional per name: **$100 ÷ 0.025 ≈ $4,000**. Do not widen the ticket because margin exists.
@@ -24,11 +24,11 @@ Risk language is the same everywhere: **$100 risk (Schwab)** or **$15 risk (Coin
 - Ticket: `SW-DAY-YYYYMMDD-NN`.
 - Never open B in a coin that already has A or C.
 
-## Sleeve C — Coinbase 3R
+## Sleeve C — Coinbase 3R (**frozen**)
 
-- `CB-YYYYMMDD-NN`. Money sheet in the v3R-60 order: $500–600 notional, $15 risk, 2.5% / 7.5%, fee-map allowlist.
-- Paper until Jeffrey upgrades engagement.
-- Same coin rule: if IBIT or BITX is open, **no** BTC-USD (or BTC-USDC).
+- Do not open CB- or PAPER-CB tickets. Do not design new Coinbase rules.
+- Autopsy only: `research/v3R-60.md`, `research/fee-map.md`.
+- Same coin rule still applies if a leftover Coinbase row exists in `book.md`: that coin is taken.
 
 ## Session router
 
@@ -36,7 +36,7 @@ Risk language is the same everywhere: **$100 risk (Schwab)** or **$15 risk (Coin
 | --- | --- |
 | Regular 9:30–15:45 | A or B allowed if coin is free. Prefer B only when the brief says “needs same-day, flatten OK”. |
 | After 15:45 | No new B. Flatten B. A may stay. |
-| Weekend / holiday | No new Schwab. Coinbase C only if engagement allows. |
+| Weekend / holiday | No new Schwab. Coinbase stays frozen. |
 
 Extended-hours A entries are optional and must use limits; B is regular session only.
 
