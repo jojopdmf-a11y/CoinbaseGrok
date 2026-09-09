@@ -12,6 +12,7 @@ Paper / prove-it only. No live orders. No secrets.
 
 ## Factory (current)
 - `STRATEGY-QUEUE.md` — Schwab-only hunt; A3–A7 then B1; no CPI pause
+- `sleeve-a/WAVE-A3-A7.md` — A3–A7 results; ETHA A6 full-sample PASS then harden FAIL; no promote
 - `../templates/strategy-card.md` — one page per queued ID
 - `../templates/metrics-board.md` — weekday ETF numbers
 - `../skills/metrics-board/SKILL.md` — Market owns the board; no Sentiment Finder Bot
