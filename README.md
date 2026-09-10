@@ -34,20 +34,15 @@ Read `coinbase-desk/SECURITY.md` before any key.
 
 ```
 cougar-desk/
-  INSTALL.md        what Desk Lead follows
-  DESK-LEAD-PROMPT.md
-  docs/SLEEVES.md   A = 1× overnight, B = 2× day, C = Coinbase 3R
-  docs/OVERLAP.md   one coin, one place
-  allowlists/       coin → IBIT/BITX/…
+  DISSOLVE-PROMPT.md  paste to Holding/COO to wind down the live crypto pit
+  INSTALL.md          archive — what Desk Lead followed
+  DESK-LEAD-PROMPT.md archive — last factory paste (A8+)
+  docs/SLEEVES.md
+  docs/OVERLAP.md
+  allowlists/
 ```
 
-On the Grok Bot computer, after CoinbaseGrok exists:
-
-```text
-Install Cougar dual-venue rules from /workspace/cougar-desk/INSTALL.md.
-```
-
-Or paste `cougar-desk/DESK-LEAD-PROMPT.md`. Research briefs a **coin**; Desk Lead reads `book.md` and picks at most one instrument. Working files: `/workspace/cougar-trading-desk` (private).
+Live CougarCrypto team is **dissolved**. Do not install the desk. To remove crypto-only Grok Bots, paste `cougar-desk/DISSOLVE-PROMPT.md` to Holding / COO (the Bot that can edit the roster). Research files stay as an archive. Working files were `/workspace/cougar-trading-desk` (private).
 
 ## Briefing site
 
