@@ -41,5 +41,4 @@
 4. Desk truth for “Wave 1 PASS” = **COO IBIT×A1 @10bps**. Strategist SMA table is a separate experiment (keep labeled ruleset1).
 
 ## Next
-- Continue Strategist **ruleset #2 breakout** paper-only; flag if OOS stays thin.
-- Harden path remains COO IBIT A1 (walk-forward + DD) when queued.
+- Ruleset #2 and A3–A7 are closed. Next work is **A8+** (`sleeve-a/cards/`), not another A1 reconcile.

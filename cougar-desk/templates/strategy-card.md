@@ -1,6 +1,6 @@
 # RULESET | ID | DATE UTC
 
-- family: (A3 pullback / A4 Donchian / A5 stretch fade / A6 momentum / A7 vol / A3s sentiment filter / B1)
+- family: (A8 post-print / A9 Monday gap / A10 laggard / A11 NR7 / A12 spring / A13 RSI2 / A14 compression / A8s sentiment / B1 locked)
 - coins: BTC ETH SOL HYPE
 - products: IBIT ETHA BSOL BHYP (B1: BITX ETHT SOLT)
 - entry: (exact bars; no vibe)

@@ -11,8 +11,10 @@ Paper / prove-it only. No live orders. No secrets.
 - `sleeve-a/` — rules, scripts, results
 
 ## Factory (current)
-- `STRATEGY-QUEUE.md` — Schwab-only hunt; A3–A7 then B1; no CPI pause
-- `sleeve-a/WAVE-A3-A7.md` — A3–A7 results; ETHA A6 full-sample PASS then harden FAIL; no promote
+- `STRATEGY-QUEUE.md` — Schwab-only hunt; **A8–A14** open; A1–A7 burned; B1 locked
+- `sleeve-a/WAVE-A8-PLUS.md` — why these families; cadence
+- `sleeve-a/cards/A8.md` … `A14.md` — exact bars (start at A8)
+- `sleeve-a/WAVE-A3-A7.md` — A3–A7 autopsy; ETHA A6 harden FAIL; no promote
 - `../templates/strategy-card.md` — one page per queued ID
 - `../templates/metrics-board.md` — weekday ETF numbers
 - `../skills/metrics-board/SKILL.md` — Market owns the board; no Sentiment Finder Bot

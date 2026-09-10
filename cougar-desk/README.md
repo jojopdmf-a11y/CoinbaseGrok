@@ -2,7 +2,7 @@
 
 Coin-level research. Two Schwab ways to play the same idea. **Coinbase sleeve C is frozen.** One coin in one place. Max two full-size Schwab names; total Schwab risk ≤ $200 and notional ≤ $12,000.
 
-Factory: `research/STRATEGY-QUEUE.md`. Daily numbers: `skills/metrics-board/SKILL.md`. Do not hire a Sentiment Finder.
+Factory: `research/STRATEGY-QUEUE.md` (A8–A14). Cards: `research/sleeve-a/cards/`. Daily numbers: `skills/metrics-board/SKILL.md`. Do not hire a Sentiment Finder.
 
 ```
 Research / Market brief a COIN (BTC, ETH, SOL, HYPE)

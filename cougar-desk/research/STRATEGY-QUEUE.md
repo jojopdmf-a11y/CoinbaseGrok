@@ -1,7 +1,9 @@
 # Schwab strategy factory (paper)
 
-Updated: **2026-09-09**  
+Updated: **2026-09-10**  
 Jeffrey: **full pause on Coinbase ideas.** Do **not** wait for CPI. Hunt rules for **BTC, ETH, SOL, HYPE** expressed as Schwab ETFs.
+
+**Current wave: A8–A14.** Cards: `sleeve-a/cards/`. Cover: `sleeve-a/WAVE-A8-PLUS.md`. A3–A7 are closed.
 
 ## What we need that we did not have
 
@@ -30,41 +32,47 @@ HYPE books are thinner: stress **15–25 bps** RT as well as 10. If ADV is too l
 - COO IBIT A1 (EMA50 + EMA20 band) — full-sample pass, harden fail
 - Strategist SMA20/10 reclaim — separate, not desk truth
 - Breakout ruleset #2 — failed n-gate as written
+- **A3–A7** — `sleeve-a/WAVE-A3-A7.md`. ETHA A6 full-sample PASS then rolling-OOS harden FAIL. Zero promote.
 
-## Queue (run in order, paper, all four coins unless noted)
+## Queue (run in order, paper)
 
-Each row is a **new named ruleset**. Same 3R money sheet unless the card says otherwise. Gate: n≥30 (n≥20 if the ETF is young), E>0 at **10 bps**, **and** walk-forward first window E>0.
+Each row is a **new named ruleset**. Exact bars are in `sleeve-a/cards/A#.md` — do not rewrite the entry in chat. Same 3R money sheet unless the card says otherwise.
 
-| ID | Family | Plain entry (Strategist must write the exact bars) |
+Gate (A6 law): n≥30 (n≥20 if the ETF is young), E>0 at **10 bps**, walk-forward first window E>0, **and** rolling OOS mean E>0.
+
+| ID | Family | One line |
 | --- | --- | --- |
-| A3 | Trend pullback v2 | Close above SMA50, pullback that **holds** SMA20 (not a same-day tag), enter next open. Different from burned A1. |
-| A4 | Donchian break | Close breaks 20-day high, SMA50 up. Enter next open. Wider than the failed #2 if #2 was a 1-day poke. |
-| A5 | Stretch fade | Close ≥ 2×ATR below SMA20, SMA50 still up or flat; fade toward SMA20, still 2.5/7.5. Mean-reversion, not VWAP. |
-| A6 | Momentum | 10-day return in top quartile of last 60 days; enter next open; skip if already 2 names. |
-| A7 | Vol expansion | ATR(14) crosses above ATR(14) 20-day median after a quiet week; trade the **direction of that day’s close**. |
-| B1 | 2× same-day (BTC/ETH/SOL only) | Only after **one** A-family shows a coin with harden-PASS. Open-drive or first-hour range break on BITX/ETHT/SOLT; flat at close. |
+| A8 | Post-print digest | First ETF session after CPI / FOMC / NFP; close > prior high and SMA50; next open. Calendar file required. |
+| A9 | Monday weekend gap | Friday close > SMA50; Monday open ≤ Fri close − 0.75×ATR; buy that open. |
+| A10 | IBIT-lead laggard | IBIT 10-day close high; buy ETHA/BSOL/BHYP that did not make its own high and sits under SMA20. |
+| A11 | NR7 close-through | Narrowest range of 7, SMA50 flat/up; next day **closes** above that high; enter following open. |
+| A12 | Failed breakdown | Close under prior 20-day low, next close reclaims that level; enter following open. |
+| A13 | RSI(2) washout | Close > SMA100 (or SMA50 if young); RSI2 < 15; next open. |
+| A14 | Compression pullback | ATR below its 20-day median five days in a row; close > SMA50 and lowest close of those five; next open. |
+| B1 | 2× same-day | Still locked. Needs **one** A-family harden-PASS first. |
 
-Do **not** skip to B1 because A3–A7 are unfinished. Do **not** add A8 until A3–A7 each have a one-page card and a pass/fail table.
+Do **not** skip to B1. Do **not** add A15 until A8–A14 each have a card (already written) **and** a pass/fail row. Do **not** rerun A1–A7.
 
 ## Sentiment — how to use it (if at all)
 
-Add as **A3s / A4s** (same rule + sentiment filter), not as a new family:
+Add as **A8s / A9s** (same rule + sentiment filter) only after that base ID has a table, not as a new family:
 
 - Log `sent_score` daily in the metrics board (−1, 0, +1) with three cited posts or a mention-count z-score.
-- Replay: take the A3 trade **only if** yesterday’s score ≥ 0.
+- Replay: take the trade **only if** yesterday’s score ≥ 0.
 - If the filter does not lift walk-forward E, **drop sentiment**. Do not hire a specialist.
 
 ## Metrics — how to use them
 
-Market updates the board every weekday. Strategist uses it to **pick which queued family to run next** (e.g. stretched → A5; quiet ATR → A7). Metrics are not a live “buy now” unless they are already in a written rule card.
+Market updates the board every weekday. Strategist uses it to **pick which queued family to run next** only if that ID is still open (e.g. quiet ATR streak → A14, not a rerun of A7). Metrics are not a live “buy now” unless they are already in a written rule card.
 
 ## Cadence
 
 - Every weekday: metrics board + four coin briefs (BTC ETH SOL HYPE). Flat is allowed.
-- Every weekday: Strategist finishes **one** queued ID or explains blocked (missing data).
+- Every weekday: Strategist finishes **one** queued ID (card already in `sleeve-a/cards/`) or explains blocked (missing data / missing A8 calendar).
+- **Do not run A8–A14 in one night.** That is how A3–A7 got a thin autopsy instead of a real wave.
 - Desk Lead: paper tickets only (`PAPER-SW-…`). No approve ping. No Coinbase queue.
-- After each ID: table + PASS / FAIL / n-fail in `cougar-desk/research/sleeve-a/` and a STATUS line.
+- After each ID: append a row to `sleeve-a/WAVE-A8-RESULTS.md` (create on first finish) and a STATUS line.
 
 ## CPI and other events
 
-Catalysts go in the brief. They do **not** pause the factory. A8+ may be an event-hold family later. Not this week’s excuse to idle.
+Catalysts go in the brief. They do **not** pause the factory. A8 is a dated entry rule, not permission to idle until the next print.

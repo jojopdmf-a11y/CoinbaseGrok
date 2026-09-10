@@ -3,17 +3,17 @@
 ```text
 git pull so /workspace/cougar-desk matches GitHub main.
 
-Jeffrey 2026-09-09:
-- Full pause on Coinbase ideas. No PAPER-CB. No new Coinbase replays. Sleeve C frozen.
-- Lift the CPI pause. Do not idle Strategist.
-- Schwab-only hunt for BTC, ETH, SOL, HYPE via ETFs (IBIT/ETHA/BSOL/BHYP, 2× later).
-- Follow cougar-desk/research/STRATEGY-QUEUE.md in order (A3 then A4…).
-- Market: daily metrics board per skills/metrics-board/SKILL.md
-- Research: weekday coin briefs + optional sent_score on that board (not a new Bot)
-- Strategist: one queued ruleset per weekday — written card, backtest, walk-forward. Full-sample green + harden red = FAIL.
+Jeffrey 2026-09-10:
+- Coinbase still frozen. No PAPER-CB. No v3R / VWAP.
+- A3–A7 are closed (WAVE-A3-A7.md). Do not rerun them. Do not open B1.
+- Next wave is A8–A14. Cover: cougar-desk/research/sleeve-a/WAVE-A8-PLUS.md
+- Exact bars: cougar-desk/research/sleeve-a/cards/A8.md then A9…A14 in order.
+- One ID per weekday. Card is already written — do not rewrite the entry. Backtest, then harden (WF1 and rolling OOS). Full-sample green + harden red = FAIL.
+- A8 needs sleeve-a/calendars/us-macro.md with sourced CPI/FOMC/NFP dates before the first A8 fill.
+- Market: daily metrics board. Research: weekday briefs. Optional sent_score only as A8s after A8 has a table.
 - You route PAPER-SW only. No approve pings. Update STATUS.md.
 
-Do not hire a Sentiment Finder. Do not reopen v3R or VWAP.
+Do not hire a Sentiment Finder. Do not blast A8–A14 in one night.
 ```
 
-After pull: Market writes `briefs/metrics-YYYY-MM-DD.md`. Strategist opens A3 (not A1). You do not ask Jeffrey to approve paper tickets.
+After pull: Strategist opens **A8**, not A3 and not A1.
