@@ -1,6 +1,6 @@
 # Macro calendar for A8
 
-A8 does not run until `us-macro.md` exists in this folder with sourced dates.
+`us-macro.md` is present (sourced CPI/FOMC/NFP; required before A8).
 
 Required columns: `date`, `event`, `release_et`, `source_url`
 

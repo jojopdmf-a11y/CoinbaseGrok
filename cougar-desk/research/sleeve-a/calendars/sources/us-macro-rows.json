@@ -1,0 +1,507 @@
+{
+  "window": {
+    "start": "2024-01-11",
+    "end": "2026-09-09"
+  },
+  "build_date_utc": "2026-09-10T02:03:45Z",
+  "rows": [
+    {
+      "date": "2024-01-11",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-01-31",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm"
+    },
+    {
+      "date": "2024-02-02",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-02-13",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-03-08",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-03-12",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-03-20",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm"
+    },
+    {
+      "date": "2024-04-05",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-04-10",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-05-01",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm"
+    },
+    {
+      "date": "2024-05-03",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-05-15",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-06-07",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-06-12",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-06-12",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm"
+    },
+    {
+      "date": "2024-07-05",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-07-11",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-07-31",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm"
+    },
+    {
+      "date": "2024-08-02",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-08-14",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-09-06",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-09-11",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-09-18",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+    },
+    {
+      "date": "2024-10-04",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-10-10",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-11-01",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-11-07",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm"
+    },
+    {
+      "date": "2024-11-13",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-12-06",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240111113756/https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "date": "2024-12-11",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://web.archive.org/web/20240104231820/https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "date": "2024-12-18",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm"
+    },
+    {
+      "date": "2025-01-10",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-01-15",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-01-29",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm"
+    },
+    {
+      "date": "2025-02-07",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-02-12",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-03-07",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-03-12",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-03-19",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250319a.htm"
+    },
+    {
+      "date": "2025-04-04",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-04-10",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-05-02",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-05-07",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250507a.htm"
+    },
+    {
+      "date": "2025-05-13",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-06-06",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-06-11",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-06-18",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250618a.htm"
+    },
+    {
+      "date": "2025-07-03",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-07-15",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-07-30",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm"
+    },
+    {
+      "date": "2025-08-01",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-08-12",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-09-05",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-09-11",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-09-17",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm"
+    },
+    {
+      "date": "2025-10-24",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2025-10-29",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm"
+    },
+    {
+      "date": "2025-11-20",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-12-10",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm"
+    },
+    {
+      "date": "2025-12-16",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025"
+    },
+    {
+      "date": "2025-12-18",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025"
+    },
+    {
+      "date": "2026-01-09",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-01-13",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-01-28",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm"
+    },
+    {
+      "date": "2026-02-11",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-02-13",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-03-06",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-03-11",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-03-18",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+    },
+    {
+      "date": "2026-04-03",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-04-10",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-04-29",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+    },
+    {
+      "date": "2026-05-08",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-05-12",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-06-05",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-06-10",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-06-17",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "date": "2026-07-02",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-07-14",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-07-29",
+      "event": "FOMC",
+      "release_et": "14:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "date": "2026-08-07",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    },
+    {
+      "date": "2026-08-12",
+      "event": "CPI",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=10&ve=2026-09-09&view=year&vs=2026-01-01"
+    },
+    {
+      "date": "2026-09-04",
+      "event": "NFP",
+      "release_et": "08:30",
+      "source_url": "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2026"
+    }
+  ]
+}
